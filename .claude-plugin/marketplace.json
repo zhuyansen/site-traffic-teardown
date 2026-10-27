@@ -1,0 +1,18 @@
+{
+  "name": "site-traffic-teardown",
+  "owner": {
+    "name": "Jason Zhu",
+    "url": "https://github.com/zhuyansen"
+  },
+  "metadata": {
+    "description": "Competitor traffic and SEO teardown skill that runs on the AIsa CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "site-traffic-teardown",
+      "source": "./",
+      "description": "Competitor traffic and SEO teardown for any website, under $1 a domain: Similarweb traffic and channel mix, Semrush keywords and backlinks, and Ahrefs DR through one AIsa key, read into growth-engine types and three concrete opportunities."
+    }
+  ]
+}
