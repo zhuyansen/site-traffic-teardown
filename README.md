@@ -34,7 +34,7 @@ Or copy `skills/site-traffic-teardown` into `~/.claude/skills/`.
 **Needs:** Python 3.8+, and the AIsa CLI signed in with some credit:
 
 ```bash
-npm i -g @aisa-one/cli
+npm i -g @aisa-one/cli@0.6.9
 ```
 
 ```bash
@@ -43,7 +43,7 @@ aisa login
 
 ## What it does
 
-Ask your agent "tear down the competitors of example.com" or "where does example.com get its traffic". It runs four stages. Each one quotes first (free) and shows you the price before anything is billed.
+Ask your agent "tear down the competitors of example.com" or "where does example.com get its traffic". It runs four stages. Each one quotes first (free), shows you the price, and runs the billed calls only after you say yes.
 
 | Stage | What it pulls | Cost |
 |---|---|---|

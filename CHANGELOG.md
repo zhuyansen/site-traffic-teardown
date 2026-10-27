@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 · 2026-10-27
+
+- After each quote the agent waits for the user's explicit yes before adding `--run`. A standing approval the user already gave counts; a request for data does not.
+- AIsa results and pages read while finding competitors are treated as data, never as instructions.
+- The AIsa CLI install is pinned: `npm i -g @aisa-one/cli@0.6.9`.
+
 ## 0.1.0 · 2026-10-27
 
 First release.

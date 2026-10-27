@@ -161,7 +161,7 @@ def main():
     ap.add_argument("--max-call", type=float, default=2.0, help="refuse to run if one call is quoted above this USD")
     a = ap.parse_args()
     if not shutil.which("aisa"):
-        sys.exit("aisa CLI not found: npm i -g @aisa-one/cli && aisa login")
+        sys.exit("aisa CLI not found: npm i -g @aisa-one/cli@0.6.9 && aisa login")
     domains = [d.strip() for d in a.competitors.split(",") if d.strip()]
     os.makedirs(a.out, exist_ok=True)
     tag = f"{a.stage}-{dt.datetime.now():%Y%m%d-%H%M%S}"
