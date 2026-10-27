@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Competitor traffic and SEO teardown skill that runs on the AIsa CLI.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {

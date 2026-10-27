@@ -43,7 +43,7 @@ aisa login
 
 ## What it does
 
-Ask your agent "tear down the competitors of example.com" or "where does example.com get its traffic". It runs four stages. Each one quotes first (free), shows you the price, and runs the billed calls only after you say yes.
+Ask your agent "tear down the competitors of example.com" or "where does example.com get its traffic". It runs four stages. Each one quotes first (free), shows you the price, and runs the billed calls only after you say yes to that quote.
 
 | Stage | What it pulls | Cost |
 |---|---|---|
